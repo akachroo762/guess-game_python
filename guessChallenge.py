@@ -7,7 +7,10 @@ print("Put your number here between 1 and 15: ")
 i = float(input())
 
 while i != answer:
-    if i < answer:
+    if i == 0:
+        print("Bye Bye !!!")
+        break
+    elif i < answer:
         print("Please guess higher")
         i = float(input())
         if i == answer:
