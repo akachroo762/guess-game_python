@@ -1,2 +1,6 @@
-# guess-game_python
-A small guessing game in python
+# Guess-Game_Python
+
+A small guessing game in python using while loops and if/else statements
+
+
+MAKE SOME CHANGES TO IT IF YOU ANT TO
