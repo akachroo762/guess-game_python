@@ -12,7 +12,7 @@ i = 0
 while i != answer:
     i = float(input())      # enter value of i here
 
-    if i == 0:  # break the loop by pressing 0 and it will exit you out of the game
+    if i == 0:              # break the loop by pressing 0 and it will exit you out of the game
         print("Bye Bye !!!")
         break
     elif i == answer: # Guess the right answer to break the loop
