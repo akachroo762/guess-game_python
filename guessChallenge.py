@@ -1,9 +1,10 @@
 import random
 
-answer = random.randint(1, 15)
+highest = 1500
+answer = random.randint(1, highest)
 print(answer)
 
-print("Put your number here between 1 and 15: ")
+print("Put your number here between 1 and {}: ".format(highest))
 i = 0
 while i != answer:
     i = float(input())
