@@ -20,7 +20,6 @@ while i != answer:
         i = float(input())
         if i == answer:
             break
-        #     print("Son of a biTch!! You did it")
         # else:
         #     continue
 if i == answer:
