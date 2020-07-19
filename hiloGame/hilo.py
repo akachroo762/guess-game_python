@@ -6,7 +6,7 @@ print("Please think of a number between {} and {}".format(low, high))
 input("Press the enter to start")
 
 guesses = 1
-while True:
+while low != high:
     print()
     print("\tGuessing in the range of {} and {}".format(low, high))
     guess = low + (high - low) // 2
@@ -27,4 +27,7 @@ while True:
     else:
         print("Please enter h, l or c")
 
-    guesses = guesses + 1
+    guesses += 1
+else:
+    print("You thought of number {}".format(low))
+    print("I got it in {} guesses".format(guesses))
